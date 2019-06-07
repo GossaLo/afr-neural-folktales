@@ -7,9 +7,9 @@ from keras.callbacks import ModelCheckpoint
 from keras.layers import Dense, LSTM, Embedding, Bidirectional, Dropout
 import string
 
-filename = 'input_afr.txt'
+filename = 'data/input_afr.txt'
 # save and load sequences to/from file
-out_filename = inp_filename = 'afr.txt'
+out_filename = inp_filename = 'data/afr.txt'
 # organize into sequences of tokens
 length = 50 + 1
 sequences = []
