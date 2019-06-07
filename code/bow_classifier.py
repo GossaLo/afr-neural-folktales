@@ -15,8 +15,8 @@ from numpy import array
 from sklearn.metrics import roc_curve, auc
 import pandas as pd 
 
-filename_afr = 'input_afr.txt'
-filename_eur = 'input_eur.txt'
+filename_afr = 'data/input_afr.txt'
+filename_eur = 'data/input_eur.txt'
 #Balanced or imbalanced dataset (Balanced -> same amount of folk tales).
 dataset = "imbalanced"
 #Create empty vocabulary.
