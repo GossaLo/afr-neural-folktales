@@ -6,9 +6,9 @@ The "code" folder contains five Python files and three Jupyter Notebook files, e
 
 Experiment 1 - Text Generation:
 - word_level_rnn.py: Trains a word-level RNN model for text generation.
-- word_level_predictions.py: Generates text based on a model.hdf5, a file with sequences and a tokenizer file.
+- word_level_predictions.py: Generates text based on a model file ("weights.hdf5"), a file with sequences ("afr_sequences.txt") and a tokenizer ("tokenizer.pkl").
 - char_level_rnn.py: Trains a character-level RNN model for text generation.
-- char_level_predictions.py: Generates text based on a model.hdf5 file.
+- char_level_predictions.py: Generates text based on a model file ("model.hdf5").
 
 Experiment 2 - Text Classification:
 - lstm_classifier.py: Trains and evaluates a deep learning LSTM classification model.
