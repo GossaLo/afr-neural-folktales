@@ -11,7 +11,7 @@ from keras.callbacks import ModelCheckpoint
 from keras.utils import np_utils
 import numpy
 
-filename = 'input_afr.txt'
+filename = 'data/input_afr.txt'
 maxlen = 100
 dataX = []
 dataY = []
