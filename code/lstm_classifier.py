@@ -18,8 +18,8 @@ import pandas as pd
 import numpy as np
 import keras
 
-filename_afr = 'input_afr.txt'
-filename_eur = 'input_eur.txt'
+filename_afr = 'data/input_afr.txt'
+filename_eur = 'data/input_eur.txt'
 #Balanced or imbalanced dataset.
 dataset = "imbalanced"
 # The maximum number of words to be used. (most frequent)
