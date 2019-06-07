@@ -31,8 +31,8 @@ import os
 np.set_printoptions(suppress=True)
 pd.set_option("display.max_colwidth", 10000)
 
-filename_afr = 'input_afr.txt'
-filename_eur = 'input_eur.txt'
+filename_afr = 'data/input_afr.txt'
+filename_eur = 'data/input_eur.txt'
 TOP_WORDS = 6500
 max_story_length = 500 
 vocab = Counter()
