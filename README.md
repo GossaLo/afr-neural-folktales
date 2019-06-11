@@ -14,12 +14,13 @@ Experiment 2 - Text Classification:
 - lstm_classifier.py: Trains and evaluates a deep learning LSTM classification model.
 - bow_classifier.py: Trains and evaluates a Bag-of-Words classificaiton.
 - tsne.py: Generates a T-SNE interactive visualization in HTML.
+The interactive T-SNE can be found here: https://gossalo.github.io/tsne-visual/
 
 Experiment 3 - Narrative Structure Analysis:
 - structure_classifier.ipynb: Trains multiple machine learning algorithms for narrative structure classification.
 
 
-Some of the code is derived from the following online machine/deep learning tutorials:
+Some of the code was derived from the following online machine/deep learning tutorials:
 
 - https://machinelearningmastery.com/
 - https://www.kdnuggets.com/
